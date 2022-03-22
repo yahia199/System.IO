@@ -15,11 +15,11 @@ namespace SystemIOTwoUnitTest
         [InlineData("-1 2 0", 0)]
         public void ChallengeOneTests(string input, int expected)
         {
-            // Arrange
-            // Act
+            
+            
             int actual = GetProduct(input);
 
-            // Assert
+            
             Assert.Equal(expected, actual);
         }
 
@@ -30,11 +30,11 @@ namespace SystemIOTwoUnitTest
         [InlineData(new int[] { 0, 0, 0, 0 }, 0)]
         public void ChallengeTwoTests(int[] arr, int expected)
         {
-            // Arrange
-            // Act
+           
+            
             int actual = GetAverage(arr, arr.Length);
 
-            // Assert
+           
             Assert.Equal(expected, actual);
         }
 
@@ -45,11 +45,11 @@ namespace SystemIOTwoUnitTest
         [InlineData(new int[] { 0, 0, 0, 0 }, 4)]
         public void ChallengeTwoTestConfirmInput(int[] arr, int expected)
         {
-            // Arrange
-            // Act
+            
+            
             int actual = arr.Length;
 
-            // Assert
+            
             Assert.Equal(expected, actual);
         }
 
@@ -61,39 +61,36 @@ namespace SystemIOTwoUnitTest
         [InlineData(new int[] { 1, 1, 2, 2, 3, 3, 4, 4 }, 1)]
         public void ChallengeFourTests(int[] arr, int expected)
         {
-            // Arrange
-            // Act
+           
             int actual = GetMostFrequent(arr);
 
-            // Assert
+           
             Assert.Equal(expected, actual);
         }
 
         [Theory]
         [InlineData(new int[] { 5, 25, 99, 123, 78, 96, 555, 108, 4 }, 555)]
-        [InlineData(new int[] { -5, -1, -2 }, -1)]
-        [InlineData(new int[] { -5, -100, -1, 2 }, 2)]
+        [InlineData(new int[] { -7, -1, -3 }, -1)]
+        [InlineData(new int[] { -8, -150, -7, 4 }, 4)]
         [InlineData(new int[] { 1, 1, 1, 1 }, 1)]
         public void ChallengeFiveTests(int[] arr, int expected)
         {
-            // Arrange
-            // Act
+           
             int actual = GetMaximum(arr);
 
-            // Assert
+           
             Assert.Equal(expected, actual);
         }
 
         [Theory]
-        [InlineData("This is a sentance about important things", new string[] { "this: 4", "is: 2", "a: 1", "sentance: 8", "about: 5", "important: 9", "things: 6" })]
-        [InlineData("!@# $%^^ &*()", new string[] { "!@#: 3", "$%^^: 4", "&*(): 4" })]
+        [InlineData("my name is yahia khalil", new string[] { "my: 2", "name: 4", "is: 2", "yahia: 5", "khalil: 6"})]
+        [InlineData("@!# $%& ((*&)", new string[] { "@!#: 3", "$%&: 3", "((*&): 5" })]
         public void ChallengeNineTests(string input, string[] expected)
         {
-            // Arrange
-            // Act
+            
             string[] actual = SplitASentence(input);
 
-            // Assert
+            
             Assert.Equal(expected, actual);
         }
     }
