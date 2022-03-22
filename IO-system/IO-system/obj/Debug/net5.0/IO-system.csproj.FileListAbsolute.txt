@@ -1,0 +1,16 @@
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\IO-system.exe
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\IO-system.deps.json
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\IO-system.runtimeconfig.json
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\IO-system.runtimeconfig.dev.json
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\IO-system.dll
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\ref\IO-system.dll
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\bin\Debug\net5.0\IO-system.pdb
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.csproj.AssemblyReference.cache
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.AssemblyInfoInputs.cache
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.AssemblyInfo.cs
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.csproj.CoreCompileInputs.cache
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.dll
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\ref\IO-system.dll
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.pdb
+C:\Users\D-C\IO system\System.IO\IO-system\IO-system\obj\Debug\net5.0\IO-system.genruntimeconfig.cache
