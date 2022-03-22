@@ -22,10 +22,7 @@ namespace SystemIO
             ChallengeNine();
         }
 
-        /// <summary>
-        /// A method that generates words.txt file
-        /// </summary>
-        /// <param name="path">words.txt file path</param>
+     
         public static void GenerateTextFile(string path)
         {
             if (!File.Exists(path))
@@ -38,13 +35,7 @@ namespace SystemIO
         }
 
         #region Challenge 1
-        /// <summary>
-        /// A method that asks the user for 3 numbers.
-        /// Outputs the product of these 3 numbers multiplied together.
-        /// If the user puts in less than 3 numbers, return 0.
-        /// If the user puts in more than 3 numbers, only multiply the first 3.
-        /// If the number is not a number, default that value to 1.
-        /// </summary>
+       
         public static void ChallengeOne()
         {
             Console.WriteLine("Challenge 1");
@@ -56,11 +47,6 @@ namespace SystemIO
             Console.WriteLine();
         }
 
-        /// <summary>
-        /// A method that parses a string input by the space and returns the product
-        /// </summary>
-        /// <param name="input">The 3 numbers entered by the user sepreated by spaces</param>
-        /// <returns>The product of the 3 numbers entered</returns>
         public static int GetProduct(string input)
         {
             string[] nums = input.Split(' ');
@@ -84,11 +70,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 2
-        /// <summary>
-        /// A method that asks the user to enter a number between 2-10.
-        /// Then, prompt the user that number of times for random numbers.
-        /// After the user has inputted all of the numbers, find the average of all the numbers inputted.
-        /// </summary>
+       
         public static void ChallengeTwo()
         {
             Console.WriteLine("Challenge 2");
@@ -127,12 +109,6 @@ namespace SystemIO
             Console.WriteLine();
         }
 
-        /// <summary>
-        /// A method that iterates through an int array and return the average of the numbers in the index
-        /// </summary>
-        /// <param name="arr">An int array containing the list of random numbers entered by the user</param>
-        /// <param name="count">A number chosen by the user</param>
-        /// <returns>The average of all the numbers from the int array</returns>
         public static int GetAverage(int[] arr, int count)
         {
             int sum = 0;
@@ -145,10 +121,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 3
-        // source: https://www.w3resource.com/csharp-exercises/for-loop/csharp-for-loop-exercise-31.php
-        /// <summary>
-        /// A method that outputs a diamond like pattern to the console
-        /// </summary>
+       
         public static void ChallengeThree()
         {
             Console.WriteLine("Challenge 3");
@@ -183,11 +156,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 4
-        /// <summary>
-        /// A method that brings in an integer array and returns the number that appears the most times.
-        /// If there are no duplicates, return the first number in the array.
-        /// If more than one number show up the same amount of time, return the first found.
-        /// </summary>
+       
         public static void ChallengeFour()
         {
             Console.WriteLine("Challenge 4");
@@ -201,11 +170,6 @@ namespace SystemIO
             Console.WriteLine();
         }
 
-        /// <summary>
-        /// A method that iterates through an int array and return the most common number in the array
-        /// </summary>
-        /// <param name="arr">An int array containing the list of random numbers</param>
-        /// <returns>Most common number in the array</returns>
         public static int GetMostFrequent(int[] arr)
         {
             int count = 0;
@@ -234,11 +198,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 5
-        /// <summary>
-        /// A method in that finds the maximum value in the array.
-        /// The array is not sorted.
-        /// Do not use .Sort()
-        /// </summary>
+      
         public static void ChallengeFive()
         {
             Console.WriteLine("Challenge 5");
@@ -252,11 +212,6 @@ namespace SystemIO
             Console.WriteLine();
         }
 
-        /// <summary>
-        /// A method that iterates through an int array and return the maximum number in the array
-        /// </summary>
-        /// <param name="arr">An int array containing the list of random numbers</param>
-        /// <returns>Maximum number in the array</returns>
         public static int GetMaximum(int[] arr)
         {
             int max = arr[0];
@@ -270,11 +225,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 6
-        // source: https://docs.microsoft.com/en-us/dotnet/api/system.io.file.appendtext?view=netcore-3.1
-        /// <summary>
-        /// A method that asks the user to input a word, and then saves that word into an external file named words.txt
-        /// </summary>
-        /// <param name="path">words.txt file path</param>
+      
         public static void ChallengeSix(string path)
         {
             Console.WriteLine("Challenge 6");
@@ -292,10 +243,6 @@ namespace SystemIO
         #endregion
 
         #region Challenge 7
-        /// <summary>
-        /// A method that reads the file in from Challenge 6, and outputs the contents to the console.
-        /// </summary>
-        /// <param name="path">words.txt file path</param>
         public static void ChallengeSeven(string path)
         {
             Console.WriteLine("Challenge 7");
@@ -314,12 +261,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 8
-        // source: https://docs.microsoft.com/en-us/dotnet/api/system.io.file.readalllines?view=netcore-3.1
-        // soruce: https://stackoverflow.com/questions/3975290/produce-a-random-number-in-a-range-using-c-sharp
-        /// <summary>
-        /// A method that reads in the file from Challenge 6 and removes one of the words, and rewrites it back to the file.
-        /// </summary>
-        /// <param name="path">words.txt file path</param>
+       
         public static void ChallengeEight(string path)
         {
             Console.WriteLine("Challenge 8");
@@ -357,10 +299,7 @@ namespace SystemIO
         #endregion
 
         #region Challenge 9
-        /// <summary>
-        ///  A method that asks the user to input a sentence.
-        ///  Outputs the word and the number of characters each word has.
-        /// </summary>
+       
         public static void ChallengeNine()
         {
             Console.WriteLine("Challenge 9");
@@ -374,11 +313,6 @@ namespace SystemIO
             Console.WriteLine("[" + string.Join(", ", SplitASentence(input)) + "]");
         }
 
-        /// <summary>
-        /// A method that parses user input and returns a string array with the word and the number of characters each word has
-        /// </summary>
-        /// <param name="input">A setence entered by the user</param>
-        /// <returns>A string array containing the processed words</returns>
         public static string[] SplitASentence(string input)
         {
             string[] words = input.Split(' ');
